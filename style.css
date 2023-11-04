@@ -96,6 +96,6 @@ img:hover {
 	background-color: rgba(255, 255, 255, 0.25);
 }
 
-.selected .icon-text {
+.selected .icon-text span {
     background-color: rgba(80, 80, 255, 0.75);
 }
