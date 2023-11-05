@@ -44,9 +44,6 @@ img:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 
-    margin: 20px;
-	margin-bottom: 0px;
-
 	filter: drop-shadow(0px 0px 30px rgb(81, 81, 81)) contrast(120%);
 }
 
@@ -59,11 +56,11 @@ img:hover {
 }
 
 #icon1 {
-    transform: translate(-50%, -50%) translate(100px, 0);
+    transform: translate(-50%, -50%) translate(15vw, 0);
 }
 
 #icon2 {
-    transform: translate(-50%, -50%) translate(-100px, 0);
+    transform: translate(-50%, -50%) translate(-15vw, 0);
 }
 
 .icon {
@@ -89,7 +86,7 @@ img:hover {
 	font-size: 2vw;
 	color:white;
 
-	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: 0.1vw;
   	-webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
