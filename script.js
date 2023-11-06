@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
 
     if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        const marqueeText = document.getElementsByClassName('poke-marquee');
-        for (let marqueeElem of marqueeText) marqueeElem.style.display = 'block';
-
         const container = document.getElementById('container');
 
         container.addEventListener('click', function(e) {
@@ -57,5 +54,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 document.addEventListener('mouseup', onMouseUp);
             }
         });
+    } else {
+        const marqueeText = document.getElementsByClassName('poke-marquee');
+        for (let marqueeElem of marqueeText) marqueeElem.style.display = 'none';
     }
 });
