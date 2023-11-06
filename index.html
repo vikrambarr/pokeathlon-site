@@ -8,7 +8,7 @@
   </head>
   <body>
     <script>
-      if (document.location.includes('https://play.pokeathlon.com')) document.location.replace('http://play.pokeathlon.com');
+      if (document.location.protocol === 'https:' && document.location.pathname === 'play.pokeathlon.com') document.location.replace('http://play.pokeathlon.com');
     </script>
 
     <h1 class="poke-marquee" style="filter: blur(5px); font-size: 60pt"><marquee behavior="scroll" direction="right" scrollamount="30">Pok&eacute;athlon</marquee></h1>
