@@ -19,7 +19,7 @@ h1 {
 
 img {
     image-rendering: pixelated;
-	width: 20vw;
+	width: 15vw;
     filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
 }
 
@@ -55,22 +55,21 @@ img:hover {
 }
 
 #icon1 {
-    transform: translate(-50%, -50%) translate(15vw, 0);
+    transform: translate(-50%, -50%) translate(-18vw, 0);
 }
 
 #icon2 {
-    transform: translate(-50%, -50%) translate(-15vw, 0);
+    transform: translate(-50%, -50%) translate(-0vw, 0);
+}
+
+#icon3 {
+    transform: translate(-50%, -50%) translate(18vw, 0);
 }
 
 .icon {
     margin: 20px;
 	margin-bottom: 0px;
 	image-rendering: pixelated;
-}
-
-.icon1 {
-	top: 0px;
-	left: -100px;
 }
 
 .icon-text {
