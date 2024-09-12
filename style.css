@@ -11,6 +11,10 @@ a {
     all: unset;
 }
 
+p {
+	color: rgb(202, 202, 202);
+}
+
 h1 {
 	cursor: default;
 	color: white;
@@ -44,6 +48,22 @@ img:hover {
 	background-repeat: no-repeat;
 
 	filter: drop-shadow(0px 0px 30px rgb(81, 81, 81)) contrast(120%);
+}
+
+.info {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	color: white;
+}
+
+.infotext {
+	width: 100px;
+	display: flex;
+	justify-content: center;
 }
 
 .icon-wrapper {
